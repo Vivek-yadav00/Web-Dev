@@ -1,0 +1,262 @@
+body {           
+  background-color:white;
+}
+.header {
+ background-color: skyblue;
+  color: rgb(122, 240, 255);
+  font-style: italic;
+ padding: 30px;
+  text-align: center;
+  background-image: url("https://d3hnfqimznafg0.cloudfront.net/images/Article_Images/ImageForArticle_979_15767632557123851.png");
+}
+
+.steps {
+  margin-top: 30px; 
+  }
+:root {
+  --main-white: #f0f0f0;
+  --main-red: #be3144;
+  --main-blue: #94b2f7;
+  --main-gray: #303841;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  top: 150px;
+  left: 0;
+  width: 100%;
+  background: var(--main-blue);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  z-index: -1;
+  height:80px;
+  border-bottom: orange;
+}
+
+.nav-list {
+  display: flex;
+  margin-right: 2rem;
+  top: 50px;
+}
+
+@media (max-width: 28.75em) {
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+}
+
+.nav-list a {
+  display: block;
+  font-size:25px;
+  padding: 2rem;
+}
+ .container{
+  margin-top:40px;
+ }
+
+ .line {
+  height:4px;
+  background-color: antiquewhite;
+ }
+
+ .container p{
+  font-size:larger;
+ }
+
+span{
+  text-decoration:underline;
+  text-decoration-color: rgb(78, 1, 78);
+  color:rgb(147, 95, 160);
+}
+
+span:hover{
+  color: green;
+}
+
+dfn:hover{
+  color:rgb(255, 0, 225);
+}
+
+i:hover{
+  color:yellow;
+  background-color: green;
+}
+.content{
+  font-size:26px;
+  margin-top:40px;
+  line-height: 40px;
+  border-bottom: double;
+  border-bottom-color: blue;
+  border-top: double;
+  border-top-color: blue;
+}
+
+.benefits{
+  font-size:20px;
+  line-height: 40px;
+  margin-top:70px;
+  border-bottom: ridge;
+  border-bottom-width: 10px;
+  border-bottom-color: greenyellow;
+}
+
+dfn{
+  color:red;
+}
+
+.one{
+  margin-left: 350px;
+  width:700px;
+  height: 350px;
+  padding:5px;
+  border:2px solid black;
+}
+.two{
+  width:550px;
+  height: 350px;
+  margin-left:800px;
+  margin-top:-990px;
+  border:2px solid black;
+  padding:5px;
+}
+
+.method{
+  font-size:20px;
+  margin-right:550px;
+  margin-left:50px;
+
+  border-bottom: ridge;
+  border-bottom-width: 10px;
+  border-bottom-color: greenyellow;
+  line-height: 25px;
+  word-spacing: 2px;
+}
+
+.three{
+  border:2px solid black;
+  margin-left:900px;
+  margin-top:-990px;
+  margin-bottom:70px;
+  display:inline-flex;
+ }
+
+ .storing{
+  font-size:20px;
+  line-height: 30px;
+  word-spacing: 0.85px;
+  border-bottom: ridge;
+  border-bottom-width: 10px;
+  border-bottom-color: greenyellow;
+ }
+
+ .use{
+  font-size:20px;
+  line-height: 30px;
+  word-spacing: 0.85px;
+  
+  margin-left:50px;
+  border-bottom: ridge;
+  border-bottom-width: 10px;
+  border-bottom-color: greenyellow;
+ }
+
+ .four{
+  border:2px solid black;
+  margin-bottom:70px;
+  display:inline-flex;
+  margin-left: 200px;
+  margin-top: 20px;
+ }
+
+ #main{
+  background-color: rgb(247, 242, 219);
+ }
+
+ h1{
+  text-align: center;
+ }
+
+ .underline{
+  text-decoration: underline;
+  text-decoration-color: gold;
+ }
+
+ .images{
+  width:600px;
+  height:350px;
+ }
+
+ .grid p{
+  background-color: #303841;
+  color: aquamarine;
+  width:600px;
+  object-fit: cover;
+  font-size: larger;
+  text-align: center;
+  margin-top: 0 ;
+ }
+
+ .grid{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-bottom: 40px;
+ }
+
+ .grids p{
+  background-color: #303841;
+  color: aquamarine;
+  width:605px;
+  object-fit: cover;
+  font-size: larger;
+  text-align: center;
+  margin-top: 0 ;
+ }
+ .grids{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+ }
+
+ q{
+  font-size: x-large;
+  line-height: 40px;
+  
+ }
+
+ .writers{
+  font-size:large;
+  color:purple;
+  text-decoration:underline;
+  text-decoration-color: aquamarine;
+ }
+
+ .break{
+  
+  border-bottom:dashed;
+  border-bottom-width: 5px;
+  border-bottom-color: green;
+
+  margin-bottom:40px;
+ }
+
+ .wwe{
+  font-size: xx-large;
+  text-align: center;
+  margin-left:400px;
+  line-height: 80px;
+  color:#f50827;
+ }
+ footer{
+  border-top:solid;
+  border-top-width: 5px;
+  border-top-color: rgb(128, 47, 0); 
+  display:flex;
+  justify-content: flex-end;
+  margin-right: 15px;
+ }
+
